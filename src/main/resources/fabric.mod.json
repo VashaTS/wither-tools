@@ -3,7 +3,7 @@
 	"id": "withertools",
 	"version": "${version}",
 	"name": "Wither Tools",
-	"description": "Adds craftable wither-proof blocks (and glass) to build a wither prison. Port of the 1.21.1 mod to Minecraft 26.3.",
+	"description": "Adds craftable wither-proof blocks (and glass) to build a wither prison. Port of the 1.21.1 mod to Minecraft 26.2.",
 	"authors": [
 		"Vasha"
 	],
@@ -27,7 +27,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.20.1",
-		"minecraft": "~26.3",
+		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

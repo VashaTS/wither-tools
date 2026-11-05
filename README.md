@@ -1,6 +1,6 @@
-# Wither Tools (Minecraft 26.3 / Fabric)
+# Wither Tools (Minecraft 26.2 / Fabric)
 
-Fabric port of [Wither Tools](https://modrinth.com/mod/wither-tools) (originally 1.21.1) to **Minecraft 26.3**.
+Fabric port of [Wither Tools](https://modrinth.com/mod/wither-tools) (originally 1.21.1) to **Minecraft 26.2**.
 
 Adds craftable blocks the Wither cannot destroy (initial explosion, blue skulls, or hurt-triggered block breaking), plus a **glass** variant.
 
@@ -27,13 +27,13 @@ Requires **Java 25**.
 ./gradlew build
 ```
 
-The jar is written to `build/libs/withertools-1.0.0-26.3.jar`.
+The jar is written to `build/libs/withertools-1.0.0-26.2.jar`.
 
 ## Versions
 
-- Minecraft `26.3`
+- Minecraft `26.2`
 - Fabric Loader `0.20.1`
-- Fabric API `0.165.2+26.3`
+- Fabric API `0.161.0+26.2`
 - Loom `1.19.3`
 
 ## License

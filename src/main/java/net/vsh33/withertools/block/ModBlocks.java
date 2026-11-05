@@ -29,7 +29,7 @@ public final class ModBlocks {
 					.strength(3.0F, 360000.0F)
 					.requiresCorrectToolForDrops()
 					.sound(SoundType.STONE)
-					.pushReaction(PushReaction.IMMOVEABLE),
+					.pushReaction(PushReaction.BLOCK),
 			true
 	);
 
@@ -45,9 +45,9 @@ public final class ModBlocks {
 					.requiresCorrectToolForDrops()
 					.sound(SoundType.GLASS)
 					.noOcclusion()
-					.isViewBlocking((state, level, pos, box) -> false)
+					.isViewBlocking((state, level, pos) -> false)
 					.isSuffocating((state, level, pos) -> false)
-					.pushReaction(PushReaction.IMMOVEABLE),
+					.pushReaction(PushReaction.BLOCK),
 			true
 	);
 
