@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " O ",
+    "OOO",
+    " O "
+  ],
+  "key": {
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "withertools:obsidian_ball",
+    "count": 1
+  }
+}

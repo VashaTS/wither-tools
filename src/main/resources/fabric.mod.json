@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "withertools",
+	"version": "${version}",
+	"name": "Wither Tools",
+	"description": "Adds craftable wither-proof blocks (and glass) to build a wither prison. Port of the 1.21.1 mod to Minecraft 26.1.",
+	"authors": [
+		"Vasha"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/wither-tools",
+		"sources": "https://github.com/VashaTS/wither-tools"
+	},
+	"license": "MIT",
+	"icon": "assets/withertools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vsh33.withertools.WitherTools"
+		],
+		"client": [
+			"net.vsh33.withertools.WitherToolsClient"
+		]
+	},
+	"mixins": [
+		"withertools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.0",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

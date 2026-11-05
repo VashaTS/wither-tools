@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GGG",
+    "GWG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "W": "withertools:witherproof_block"
+  },
+  "result": {
+    "id": "withertools:witherproof_glass",
+    "count": 8
+  }
+}

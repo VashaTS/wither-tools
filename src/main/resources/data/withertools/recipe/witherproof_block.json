@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GOO",
+    "ODO",
+    "OOG"
+  ],
+  "key": {
+    "O": "withertools:obsidian_ball",
+    "G": "minecraft:gold_block",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "withertools:witherproof_block",
+    "count": 1
+  }
+}
