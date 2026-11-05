@@ -34,7 +34,7 @@ The jar is written to `build/libs/withertools-1.0.0-26.1.jar`.
 - Minecraft `26.1`
 - Fabric Loader `0.20.1`
 - Fabric API `0.145.1+26.1`
-- Loom `1.19-SNAPSHOT`
+- Loom `1.19.3`
 
 ## License
 
