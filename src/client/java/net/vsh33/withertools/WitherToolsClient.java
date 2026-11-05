@@ -5,7 +5,7 @@ import net.fabricmc.api.ClientModInitializer;
 public class WitherToolsClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// ChunkSectionLayer is chosen automatically from sprite transparency in 26.1+.
+		// ChunkSectionLayer is chosen automatically from sprite transparency in 26.1+/26.3.
 		// Witherproof glass uses a translucent texture, so it renders as translucent.
 	}
 }
